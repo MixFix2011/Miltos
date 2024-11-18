@@ -1,0 +1,24 @@
+/*общие стили для всех кнопок*/
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 15px 25px;
+    padding: 15px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.2s ease-in-out;
+ }
+
+/*кнопки*/
+#gems a {
+   border-radius: 30px;
+    color: #015e10;
+    box-shadow: inset 0 -5px 0 #015e10;
+ }
+ #gems a:hover {
+    box-shadow: inset 0 -60px 0 #015e10, 4px 4px 5px rgba(5, 104, 10, 0.473);
+    color: #39d81a;
+ }

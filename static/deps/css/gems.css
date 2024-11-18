@@ -1,0 +1,42 @@
+#gems, #pass{
+    text-align: center;
+}
+#gems p{
+    color: white;
+}
+#gems img{
+    height: 200;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+    transition: 0.2s ease-in-out;
+}
+#gems img:hover{
+    height: 200;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00ff00;
+    transition: 0.2s ease-in-out;
+}
+
+p{
+    font-weight: bold;
+}
+
+.price:after {
+    content: ' \20BD';
+}
+
+#pass p{
+    color: white;
+}
+#pass img{
+    height: 200;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+    transition: 0.2s ease-in-out;
+}
+#pass img:hover{
+    height: 200;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #920192;
+    transition: 0.2s ease-in-out;
+}

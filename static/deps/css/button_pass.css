@@ -1,0 +1,21 @@
+a {
+   display: inline-block;
+   text-decoration: none;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   margin: 15px 25px;
+   padding: 15px 20px;
+   font-size: 10px;
+   font-weight: bold;
+   font-family: 'Montserrat', sans-serif;
+   transition: 0.2s ease-in-out;
+}
+#pass a {
+    border-radius: 30px;
+     color: #6e0697;
+     box-shadow: inset 0 -5px 0 #6e0697;
+  }
+  #pass a:hover {
+     box-shadow: inset 0 -60px 0 #6e0697, 4px 4px 5px rgba(116, 1, 100, 0.473);
+     color: #d103c0;
+  }
